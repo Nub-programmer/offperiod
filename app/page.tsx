@@ -56,7 +56,7 @@ export default function Page() {
           >
             <div className="flex h-full w-full items-center justify-center border border-[#C5A059]/45 bg-[#080808]/50">
               <img
-                src="/assets/offperiodlogo.jpg"
+                src="/assets/logo.png"
                 alt="Offperiod logo"
                 className="h-full w-full object-cover"
               />
