@@ -99,8 +99,19 @@ export default function Page() {
           <motion.h1
             className="mt-8 text-4xl font-semibold uppercase tracking-[0.32em] text-[#C5A059] sm:text-6xl"
             initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, delay: 0.22, ease: "easeOut" }}
+            animate={{
+              opacity: [0.92, 1, 0.86, 1, 0.95, 1],
+              textShadow: [
+                "0 0 0 rgba(197,160,89,0)",
+                "0 0 10px rgba(197,160,89,0.15)",
+                "0 0 2px rgba(197,160,89,0.05)",
+                "0 0 12px rgba(197,160,89,0.18)",
+                "0 0 4px rgba(197,160,89,0.08)",
+                "0 0 10px rgba(197,160,89,0.15)",
+              ],
+              y: 0,
+            }}
+            transition={{ duration: 4.5, repeat: Infinity, repeatType: "mirror", ease: "easeInOut", delay: 0.22 }}
           >
             OFFPERIOD...
           </motion.h1>
@@ -111,7 +122,7 @@ export default function Page() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.32, ease: "easeOut" }}
           >
-            <p>🕵️ Your school. Anonymous.</p>
+            <p>🕵️ Offperiod unfiltered.</p>
             <p>🛡️ Data Safe.</p>
             <p>🤫 JPS Noida first. Others soon..</p>
             <p>⌛ The first drop is coming soon!</p>
