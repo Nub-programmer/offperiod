@@ -122,7 +122,7 @@ export default function Page() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.32, ease: "easeOut" }}
           >
-            <p>🕵️ Offperiod unfiltered.</p>
+            <p>🕵️ Your school. Anonymous.</p>
             <p>🛡️ Data Safe.</p>
             <p>🤫 JPS Noida first. Others soon..</p>
             <p>⌛ The first drop is coming soon!</p>
@@ -143,7 +143,7 @@ export default function Page() {
             cards={[
               "🛡️ Zero-Knowledge: No email. No real name. Hume tumhara data nahi chahiye. Your Atma is yours.",
               "🔥 48-Hour Burn: Everything wipes clean every 48 hours. No digital footprints, no evidence.",
-              "🤝 Noida Student Alliance: Built for us, by us. No teachers, no snitches. Just the hallway, unfiltered.",
+              "🤝 Noida Student Alliance: Built for us, by us. No teachers, no snitches. Just offperiod unfiltered.",
             ]}
           />
 
